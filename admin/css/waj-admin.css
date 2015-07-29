@@ -1,0 +1,63 @@
+/**
+ * All of the CSS for your dashboard-specific functionality should be
+ * included in this file.
+ */
+#adminmenu #toplevel_page_waj div.wp-menu-image:before { 
+    content: "\f156";
+}
+
+
+#waj_plugin_settings .setings-form {
+    float: left;
+}
+
+#waj-info-place {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+#waj-donation, #waj-contact, #waj-ads {
+	width: 255px;
+	padding: 7px; padding-bottom: 0px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	text-align: center;
+}
+
+#waj-donation p, #waj-ads p {
+	margin: 0.5em 0 1em 0;
+}
+
+#waj-ads {
+	padding-bottom: 5px;
+}
+
+#waj-ads p {
+	text-decoration: underline;
+}
+
+#waj-info-place small {
+	font-size: 0.8em;
+}
+
+#waj-donation .paypal-submit {
+	vertical-align: bottom;
+	display: inline-block;
+	margin: 0 0 1px 2px;
+	padding: 0px;
+}
+
+.bwp-separator {
+	width: 271px;
+}
+
+#waj-contact  {
+	text-align: left;
+	padding: 7px;
+}
+
+#waj-contact a {
+	display: block;
+	font-size: 0.8em;
+	padding-left: 25px;
+}
