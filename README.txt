@@ -22,6 +22,8 @@ User can filter products by category ang chage they order (all this do also Ajax
 
 In shortcode setting possible filter shoed products by category ID of products ID`s list (Example: 2,5,8,24).
 
+See [demo on resume/cv template shop](http://www.lebenslaufdesigns.de/ "pluign demo").
+
 == Installation ==
 
 1. Unzip plugin archive and upload to the `/wp-content/plugins/` directory or install from Wordpress.org
