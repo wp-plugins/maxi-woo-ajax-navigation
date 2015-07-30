@@ -24,6 +24,20 @@ In shortcode setting possible filter shoed products by category ID of products I
 
 See [demo on resume/cv template shop](http://www.lebenslaufdesigns.de/ "pluign demo").
 
+For insert products list use
+[woo_ajax_nav columns="3" orderby="title" order="asc" per_page="3" product_cat="" ids="" skus=""]
+Params:
+
+* `columns`: columns number (1,2,3,4)
+
+* `orderby` and `order`: https://codex.wordpress.org/Class_Reference/WP_Query#Order_.26_Orderby_Parameters
+
+* `per_page`: how many product shows in one page
+
+* `product_cat`: from what category select products
+
+* `ids`: products ids (Example: 2,5,8,24), if need shows just specific products
+
 == Installation ==
 
 1. Unzip plugin archive and upload to the `/wp-content/plugins/` directory or install from Wordpress.org
@@ -35,7 +49,7 @@ See [demo on resume/cv template shop](http://www.lebenslaufdesigns.de/ "pluign d
 
 = How i can change products block design / layout =
 
-It depneds on you theme and Woocommerce styles, this plugin not chages produts design, just shows products with default styling.
+It depends on you theme and Woocommerce styles, this plugin not chages products design, just shows products with default styling.
 
 
 == Screenshots ==
